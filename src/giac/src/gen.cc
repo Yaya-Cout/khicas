@@ -2,7 +2,7 @@
 #include "giacPCH.h"
 #ifdef KHICAS
 #include "kdisplay.h"
-#if defined DEVICE && !defined NSPIRE_NEWLIB
+#if 0 // defined DEVICE && !defined NSPIRE_NEWLIB
 size_t stackptr=0x20036000;
 #else
 size_t stackptr=0xffffffffffffffff;
