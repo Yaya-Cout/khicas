@@ -5,7 +5,7 @@
 #if 0 // defined DEVICE && !defined NSPIRE_NEWLIB
 size_t stackptr=0x20036000;
 #else
-size_t stackptr=0xffffffffffffffff;
+size_t stackptr=0xffffffff;
 #endif
 #endif
 
